@@ -1,0 +1,26 @@
+{
+    "messageVersion": "1.0",
+    "invocationSource": "DialogCodeHook",
+    "userId": "John",
+    "sessionAttributes": {},
+    "bot": {
+      "name": "offerAid",
+      "alias": "$LATEST",
+      "version": "$LATEST"
+    },
+    "outputDialogMode": "Text",
+    "currentIntent": {
+      "name": "buyerInputs",
+      "slots": {
+          "zipcode": "98056",
+          "bathrooms": "1", 
+          "bedrooms": "3", 
+          "lotsize": "6000", 
+          "listingPrice": "160000", 
+          "sqft": "900", 
+          "propertyType": "1",
+          "aggressionLevel": "3"
+      },
+      "confirmationStatus": "None"
+    }
+  }
